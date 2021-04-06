@@ -1,0 +1,628 @@
+
+/******************général*********************/
+
+p {
+  font-size: 1.5vw;
+  font-family: 'Old Standard TT', serif;
+}
+
+/******************menu******************/
+
+.navMenu {
+  position: fixed;
+  height: 4vw;
+  width: 100%;
+  z-index: 500;
+  background-color: whitesmoke;
+}
+
+.nav {
+
+  right: 5vw;
+}
+
+.logoNav {
+  position: absolute;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+  font-size: 2vw;
+  top: 0.3vw;
+  padding-left: 2vw;
+  margin-bottom: 0;
+} 
+.nav-link {
+  right: 10vw;
+  font-size: 1.4vw;
+  font-family: 'Old Standard TT', serif;
+  font-weight: bold;
+  color: rgb(134, 129, 53);
+}
+
+.nav-item {
+  position: relative;
+  top: 0.6vw;
+}
+
+.fb {
+  float: right;
+  width: 2vw;
+  height: 2vw;
+  margin: 1vw 1vw;
+}
+
+/*****************************video*********************************/
+
+.video {
+  height: 35vw;
+}
+#video {
+  position: absolute;
+  top: 4vw;
+  left: 4vw;
+  min-width: 100%;
+  width: 100%;
+  height: 35vw;
+  z-index: -100;
+  transform: translateX(-4vw) translateY(-4vw);
+  object-fit: cover;
+  transition: 0s opacity;
+}
+
+h1 {
+  position: relative;
+  color: black;
+  text-shadow: 2px 2px white;
+  font-family: 'Lobster', cursive;
+  font-style: oblique;
+  padding-top: 15vw;
+  font-size: 4vw;
+}
+
+.down {
+  position: relative;
+  width: 4vw;
+  height: 4vw;
+  top: 2vw;
+  left: 48vw;
+  opacity: .5;
+}
+
+.down:hover {
+  opacity: 1;
+}
+
+/********************introduction******************************/
+
+.intro {
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.intro p {
+  text-align: center;
+  font-weight: bold;
+  width: 50vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  margin: 0 25vw;
+}
+
+/**************************preséntation**********************/
+
+.presentation {
+  height: 50vw;
+  background-color: whitesmoke;
+}
+
+.photo1 {
+  width: 100%;
+  height: 50vw;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.caroussel {
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  float: right;
+  top: 22vw;
+  margin-right: 2vw;
+}
+.caroussel img {
+  width: 5vw;
+  height: 5vw;
+  opacity: 0.5;
+}
+
+.caroussel img:hover {
+  opacity: 1;
+}
+
+.h3{
+  font-size: 2vw;
+  font-style: italic;
+
+}
+
+.h2{
+  font-size: 2.5vw;
+  font-weight: bold;
+  padding-bottom: 2vw;
+
+}
+
+.parag {
+  width: 50vw;
+  padding-top: 10vw;
+  padding-left: 5vw;
+}
+
+/***************Lieu**********************/
+
+.lieu {
+  height: 50vw;
+  background-color: whitesmoke;
+}
+
+.parag1 {
+  width: 50vw;
+  padding-top: 10vw;
+  margin-left: 40vw;
+}
+
+.contacter {
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  float: left;
+  top: 22vw;
+  margin-left: 2vw;
+}
+.contacter img {
+  width: 5vw;
+  height: 5vw;
+  opacity: 0.5;
+}
+
+.contacter img:hover {
+  opacity: 1;
+}
+
+/*****************témoignages*********************/
+
+.temoignages {
+  height: auto;
+  background-color: whitesmoke;
+  margin: 0 auto;
+
+}
+
+.temoin1 {
+  margin: 1vw 0;
+  width: 25vw;
+  height: 25vw;
+  display: inline-block;
+  margin-left: 15vw;
+  border: 2px solid rgb(134, 129, 53);
+  border-radius: 50%;
+  padding-left: 2.5vw;
+
+
+
+
+}
+
+.temoin1 p, .temoin2 p {
+  height: 25vw;
+  font-size: 1vw;
+  font-weight: bold;
+  width: 20vw;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0.7; 
+
+}
+
+.temoin2 {
+  margin: 1vw 0;
+  width: 25vw;
+  height: 25vw;
+  display: inline-block;
+  float: right;
+  margin-right: 15vw;
+  border: 2px solid rgb(134, 129, 53);
+  border-radius: 50%;
+  padding-left: 2.5vw;
+}
+
+
+/************Galeri Photo**************/
+
+.galery {
+  position: relative;
+  background-color: whitesmoke;
+  height: 25vw;
+  margin-left: 1vw
+}
+
+.photo2 {
+
+  width: 33%;
+  height: 25vw;
+  opacity: 0.5;
+  float: left;
+}
+.photo3 {
+
+  width: 33%;
+  height: 25vw;
+  float: left;
+  opacity: 0.5;
+}
+.photo4 {
+
+  width: 33%;
+  height: 25vw;
+  float: left;
+  opacity: 0.5;
+}
+
+.photo2:hover, .photo3:hover, .photo4:hover {
+  opacity: 1;
+}
+
+
+/***********Tarifs***********/
+.budget {
+  height: 60vw;
+ 
+}
+
+.parag2 {
+  width: 50vw;
+  padding-top: 10vw;
+  padding-left: 5vw;
+
+}
+
+.photo5 {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 60vw;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.tarif {
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  float: right;
+  top: 27.5vw;
+  margin-right: 2vw;
+}
+.tarif img {
+  width: 5vw;
+  height: 5vw;
+  opacity: 0.5;
+}
+
+.tarif img:hover {
+  opacity: 1;
+}
+
+
+/*************nous trouver***************/
+
+.localite {
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.localite p {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 4vw;
+  font-style: oblique;
+  text-shadow: 2px 2px rgb(134, 129, 53);
+  width: 50vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  margin: 0 auto;
+}
+
+/**************localité***************/
+.lolo {
+  width: 20vw;
+  height: 35vw;
+  float: left;
+}
+
+.lolo1 {
+  width: 20vw;
+  height: 35vw;
+  opacity: 0.5;
+}
+
+.lolo1:hover {
+  opacity: 1;
+}
+
+.lucile {
+  width: 20vw;
+  height: 35vw;
+  float: right; 
+}
+
+.lucile1 {
+  width: 20vw;
+  height: 35vw;
+  opacity: 0.5;
+}
+
+.lucile1:hover {
+  opacity: 1;
+}
+
+.textlocalite {
+  background-color: rgba(238, 224, 224, 0.904);
+  height: 35vw;
+  width: 100%;
+  position: relative;
+  right: 0;
+}
+.text2 {
+  position: absolute;
+  width: 50vw;
+  height: 30vw;
+  text-align: center;
+  left: 25vw;
+  top: 2vw;
+}
+
+.tel {
+  width: 5vw;
+  height: 5vw;
+}
+.tel img {
+  width: 5vw;
+  height: 5vw;
+  opacity: 0.5;
+  position: absolute;
+  bottom: -2vw;
+  left: 22.5vw;
+}
+
+.tel img:hover{
+  opacity: 1;
+}
+
+/************FOOTER*************/
+
+.footer {
+
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.footer p {
+  text-align: center;
+  /* font-size: 2vw; */
+  width: 50vw;
+  margin: 0 auto;
+  padding: 2vw;
+}
+
+
+
+/*************************************************************PHOTOS.HTML****************************************************************/
+
+/********Carousel************/
+
+.items {
+  background-color: rgba(238, 224, 224, 0.904);
+  height: 55vw;
+  width: 100%;
+  position: relative;
+
+  right: 0;
+
+}
+
+.items .item {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 35vw;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  z-index: -1;
+  opacity: 0;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item.active {
+  opacity: 1;
+  z-index: 99;
+  box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+}
+
+
+.item.prev {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(-125%, -50%);
+}
+
+.item.next {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(25%, -50%);
+}
+
+.items .button-container {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(0%, -50%);
+  width: 50vw;
+  z-index: 100;
+}
+
+.button-container .button {
+  color: #fff; 
+  cursor: pointer;
+  position: relative;
+  opacity: 0.75;
+  transition: all 300ms ease-in-out;
+}
+.button-container .button img {
+  width: 2.5vw;
+  height: 2.5vw;
+
+}
+
+.button-container .button:hover {
+  opacity: 1;
+}
+
+.button-container .button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4vw;
+  height: 4vw;
+  background-color: rgba(129, 129, 129, 0.849);
+  border-radius: 50%;
+  z-index: -99;
+}
+
+.button-container .button:nth-child(1) {
+  float: left;
+}
+
+.button-container .button:nth-child(2) {
+  float: right;
+}
+
+
+/******************************************tarif.html***************************************************/
+
+#pageTarif {
+  background-color: rgba(238, 224, 224, 0.904);
+  width: 100%;
+  position: relative;
+}
+
+.tarifContent {
+  width : 90%;
+  margin-left :5% ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1;
+}
+
+.containerTarif {
+  display: flex;
+  margin: 50px 0;
+}
+
+.tarifText {
+  float: left;
+  width: 50%;
+}
+
+.tarifPrix {
+  float: right;
+  width: 50%;
+}
+
+.tarifPrix p{
+  text-align: end;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.tarifSousTexte {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.line {
+  border: 1px solid gray;
+  width: 80%;
+  margin: 60px 10%;
+  opacity: 0.2; 
+}
+
+/********************************************contact.html**************************************************/
+
+#pageContact {
+  background-color: rgba(238, 224, 224, 0.904);
+  width: 100%;
+  position: relative;
+}
+
+.contactContent {
+  width : 90%;
+  margin-left :5% ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1;
+  display: flex;
+}
+
+.googleMap {
+  width: 50%;
+  float: left;
+}
+
+.googleMap iframe {
+  width: 1200px;
+  height: 500px;
+  max-width: 100%;
+}
+
+.contactDetails {
+  float: right;
+  width: 50%;
+}
+
+.contactPart {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contactTitre {
+  font-weight: 600;
+}
+
+.contactPlus {
+  opacity: 0.7;
+}
+
+.contactPlus a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactPlus:hover {
+  opacity: 1;
+}
